@@ -1,0 +1,5 @@
+Profile for running multiple servers at the same time.
+Procfile.dev is run by foreman gem.
+
+web: PORT=5000 npm start --prefix client
+api: PORT=3000 rails s
